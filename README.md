@@ -1,7 +1,7 @@
 # 📚 NSBM Library Management System – UI/UX Prototype
 
 This repository contains the **Figma UI/UX design prototype** for the **NSBM Library Management System**, created as part of the *Business Process and ERP* module.  
-The design is focused on providing an efficient and intuitive interface for two main user roles: **Administrators** and **Students**.
+The design is focused on providing an efficient and intuitive interface for two main user roles: **Administrators** and **Users**.
 
 🔗 **Figma Design Link:** https://www.figma.com/design/5xJGMF0WuR9uFZZYFeMybX/Library-Management-System?node-id=0-1&p=f&t=79MJznWnlQD2AoMD-0(#)
 
@@ -9,28 +9,8 @@ The design is focused on providing an efficient and intuitive interface for two 
 
 ## 🖥️ Page-by-Page Interface Breakdown
 
-### **Page 1 – Title Page**
-**Purpose:**  
-Serves as the cover page for the UI/UX design report.  
 
-**Key Components:**
-- 🏫 NSBM Green University Town logo  
-- 📘 Project Title: *“Business Process and ERP”*  
-- 🧾 Task Title: *“TASK 4 - Group 17”*  
-- 🔗 Official link to the Figma design  
-
----
-
-### **Page 2 – Group Members**
-**Purpose:**  
-Lists the student members who contributed to the project.  
-
-**Key Components:**
-- A table listing **Student ID** and **Name** for all 12 group members.
-
----
-
-### **Page 3 – Registration Page**
+### **Page 1 – Registration Page**
 **Purpose:**  
 Allows new administrators to register for the Library Management System ERP.  
 
@@ -43,7 +23,7 @@ Allows new administrators to register for the Library Management System ERP.
 
 ---
 
-### **Page 4 – Login Page**
+### **Page 2 – Login Page**
 **Purpose:**  
 Allows users to log in to the system.  
 
@@ -56,7 +36,7 @@ Allows users to log in to the system.
 
 ---
 
-### **Page 5 – Main Dashboard (Admin)**
+### **Page 3 – Main Dashboard (Admin)**
 **Purpose:**  
 The central landing page for administrators providing an overview of the Library Management System.  
 
@@ -67,7 +47,7 @@ The central landing page for administrators providing an overview of the Library
 
 ---
 
-### **Page 6 – Books Page**
+### **Page 4 – Books Page**
 **Purpose:**  
 Allows navigation and management of books.  
 
@@ -78,7 +58,7 @@ Allows navigation and management of books.
 
 ---
 
-### **Page 7 – Issue & Return Page**
+### **Page 5 – Issue & Return Page**
 **Purpose:**  
 Displays the history of book issuing and returns.  
 
@@ -89,7 +69,7 @@ Displays the history of book issuing and returns.
 
 ---
 
-### **Page 8 – Reservations Page**
+### **Page 6 – Reservations Page**
 **Purpose:**  
 Manage and review book reservations.  
 
@@ -99,7 +79,7 @@ Manage and review book reservations.
 
 ---
 
-### **Page 9 – Members Page**
+### **Page 7 – Members Page**
 **Purpose:**  
 View and manage all library members.  
 
@@ -109,7 +89,7 @@ View and manage all library members.
 
 ---
 
-### **Page 10 – Applications Page**
+### **Page 8 – Applications Page**
 **Purpose:**  
 Handle and review all applications related to library services.  
 
@@ -121,7 +101,7 @@ Handle and review all applications related to library services.
 
 ---
 
-### **Page 11 – Fine Management Page**
+### **Page 9 – Fine Management Page**
 **Purpose:**  
 Manage all activities related to fines.  
 
@@ -131,7 +111,7 @@ Manage all activities related to fines.
 
 ---
 
-### **Page 12 – Reports Page**
+### **Page 10 – Reports Page**
 **Purpose:**  
 Generate and review summary reports.  
 
@@ -141,7 +121,7 @@ Generate and review summary reports.
 
 ---
 
-### **Page 13 – Inventory Page**
+### **Page 11 – Inventory Page**
 **Purpose:**  
 View a summary of all library resources and statuses.  
 
@@ -151,7 +131,7 @@ View a summary of all library resources and statuses.
 
 ---
 
-### **Page 14 – Settings Page (Admin)**
+### **Page 12 – Settings Page (Admin)**
 **Purpose:**  
 Manage administrative system settings.  
 
@@ -166,7 +146,7 @@ Manage administrative system settings.
 
 ---
 
-### **Page 15 – Student Dashboard**
+### **Page 13 – User Dashboard**
 **Purpose:**  
 The main landing page for students after login, providing a personal summary.  
 
@@ -177,7 +157,7 @@ The main landing page for students after login, providing a personal summary.
 
 ---
 
-### **Page 16 – Books Page (Student)**
+### **Page 14 – Books Page (Users)**
 **Purpose:**  
 Allows students to browse the available books.  
 
@@ -186,7 +166,7 @@ Allows students to browse the available books.
 
 ---
 
-### **Page 17 – My Books Page**
+### **Page 15 – My Books Page**
 **Purpose:**  
 Displays the student’s book activity.  
 
@@ -195,7 +175,7 @@ Displays the student’s book activity.
 
 ---
 
-### **Page 18 – Reservations Page (Student)**
+### **Page 16 – Reservations Page (Users)**
 **Purpose:**  
 View and track personal book reservations.  
 
@@ -204,7 +184,7 @@ View and track personal book reservations.
 
 ---
 
-### **Page 19 – Fines & Payments Page**
+### **Page 17 – Fines & Payments Page**
 **Purpose:**  
 View and manage student fines and payment records.  
 
@@ -214,7 +194,7 @@ View and manage student fines and payment records.
 
 ---
 
-### **Page 20 – Settings Page (Student)**
+### **Page 18 – Settings Page (Users)**
 **Purpose:**  
 Personalize and manage student account preferences.  
 
@@ -232,14 +212,12 @@ Personalize and manage student account preferences.
 | Role | Description |
 |------|--------------|
 | **Administrator** | Has full system access, manages books, members, fines, reports, and configurations. |
-| **Student** | Can view, borrow, and reserve books, manage fines, and adjust personal settings. |
+| **Users** | Can view, borrow, and reserve books, manage fines, and adjust personal settings. |
 
 ---
 
 ## 🛠️ Tools Used
 - 🎨 **Figma** – UI/UX Design & Prototyping  
-- 🏫 **NSBM Green University Town** – Project Context  
-- 🧠 **Group 17** – Design & Documentation  
 
 ---
 
